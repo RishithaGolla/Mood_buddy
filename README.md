@@ -12,3 +12,7 @@
 1. Clone the repo:
    ```bash
    git clone https://github.com/RishithaGolla/Mood_buddy.git
+
+## License
+Mood Buddy is released under the **MIT License**. See [LICENSE](./LICENSE) for details.
+
