@@ -1,2 +1,14 @@
-# Mood_buddy
-“Ever forget to drink water, take medicine, eat, or stretch while working? Meet Babu, your cute little wellness buddy! 🐢 Babu gently reminds you to step away from your laptop, take a sip, move around, or just breathe—using voice alerts, custom messages, and adorable cues. Stay healthy, happy, and productive, one little nudge at a time!”
+# Mood Buddy – Your tiny wellness companion 🐢
+
+**Mood Buddy** helps you track how you feel during the day. Pick an emoji, write a short note, and save a small action you can take now. Data is stored in your browser (Chrome Storage).
+
+## Features
+- Quick emoji mood capture
+- Optional text note & one actionable step
+- View history, export CSV, clear history
+- Lightweight and privacy-friendly
+
+## Install (for developers)
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/YOURNAME/mood-buddy.git
