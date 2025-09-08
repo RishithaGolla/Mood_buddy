@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mood Buddy</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🐢 Mood Buddy</h1>
+
+    <p class="prompt">How are you feeling?</p>
+
+    <div class="emoji-grid" id="emojiGrid">
+      <button class="emoji" data-emoji="😄">😄</button>
+      <button class="emoji" data-emoji="🙂">🙂</button>
+      <button class="emoji" data-emoji="😐">😐</button>
+      <button class="emoji" data-emoji="😢">😢</button>
+      <button class="emoji" data-emoji="😡">😡</button>
+      <button class="emoji" data-emoji="😴">😴</button>
+      <button class="emoji" data-emoji="😍">😍</button>
+      <button class="emoji" data-emoji="😰">😰</button>
+    </div>
+
+    <textarea id="moodText" placeholder="Write what you're feeling..." rows="3"></textarea>
+    <input id="actionText" placeholder="One thing you can do now" />
+
+    <div class="buttons">
+      <button id="saveBtn">Save Mood</button>
+      <button id="viewHistoryBtn">View History</button>
+    </div>
+
+    <div id="status" class="status"></div>
+
+    <!-- History area (initially hidden) -->
+    <div id="historyArea" class="history hidden">
+      <div class="history-header">
+        <h3>History</h3>
+        <div class="history-actions">
+          <button id="exportBtn">Export CSV</button>
+          <button id="clearBtn">Clear All</button>
+        </div>
+      </div>
+
+      <div id="stats" class="stats"></div>
+      <ul id="historyList" class="history-list"></ul>
+      <button id="closeHistoryBtn" class="close-history">Close</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

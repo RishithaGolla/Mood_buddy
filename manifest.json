@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Mood Buddy",
+  "version": "1.0",
+  "description": "Your cute tortoise Babu reminds you to check your mood, reflect, and take small wellness actions.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "alarms", "notifications"]
+}
