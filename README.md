@@ -11,4 +11,4 @@
 ## Install (for developers)
 1. Clone the repo:
    ```bash
-   git clone https://github.com/YOURNAME/mood-buddy.git
+   git clone https://github.com/RishithaGolla/Mood_buddy.git
