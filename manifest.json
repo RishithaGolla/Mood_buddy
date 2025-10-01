@@ -1,13 +1,24 @@
 {
   "manifest_version": 3,
-  "name": "Mood Buddy",
-  "version": "1.0",
-  "description": "Your cute tortoise Babu reminds you to check your mood, reflect, and take small wellness actions.",
+  "name": "Mood Buddy 🐢 - Your Friendly Mood Tracker",
+  "version": "2.0",
+  "description": "Your friendly tortoise buddy reminds you to check in with your mood, reflect, and practice mindfulness.",
+  "permissions": ["storage", "alarms", "notifications"],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "background": {
     "service_worker": "background.js"
-  },
-  "permissions": ["storage", "alarms", "notifications"]
+  }
 }
+
