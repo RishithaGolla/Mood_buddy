@@ -8,11 +8,10 @@ It's a simple, private, and easy-to-use tool for anyone looking to build a healt
 
 ### ✨ Features
 
-* **All-in-One Interface:** Log your mood, view history, see your calendar, and change settings in a single, clean popup window.
+* **All-in-One Interface:** Log your mood, view history, and change settings in a single, clean popup window.
 * **Quick Mood Logging:** Easily select an emoji that represents your current mood.
 * **Add Context:** Optionally add notes about why you're feeling a certain way or what small action you can take.
 * **View Your History:** See a chronological log of all your past entries to recognize patterns.
-* **Mood Calendar:** Visualize your mood history in a color-coded calendar view to see your emotional landscape at a glance.
 * **Edit & Delete:** Have full control over your history with the ability to edit or delete any entry.
 * **Data Export:** Export your entire mood history to a CSV file for personal analysis or journaling.
 * **Customizable Reminders:** Set exactly when and how often you want reminders, with options for specific days and times.
